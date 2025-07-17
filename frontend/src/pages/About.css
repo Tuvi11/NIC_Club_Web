@@ -1,0 +1,22 @@
+/* src/pages/About.css */
+
+.team-card {
+  background: linear-gradient(to bottom right, #ff7043, #ffcc80);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.leader:hover{
+    transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.leader{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

@@ -1,0 +1,28 @@
+.membership-section {
+   background-color: #ffffff; /* Or any dark/light base background you prefer */
+  min-height: 100vh;
+  
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.recruit-card {
+  background: linear-gradient(135deg, #ff8c00, #ff6c00); /* orange gradient */
+  border: none;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.recruit-card:hover {
+  transform: translateY(-5px);
+}
+
+.recruit-card .btn {
+  border-radius: 8px;
+}
+.mt-custom {
+  margin-top: 1rem;
+}
+

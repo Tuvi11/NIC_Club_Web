@@ -1,0 +1,18 @@
+.footer-simple {
+  background: linear-gradient(45deg, #dd2c00, #e6a009);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-bottom: 10px;
+}

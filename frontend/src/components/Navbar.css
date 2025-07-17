@@ -1,0 +1,90 @@
+.navitems {
+  position: relative;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  padding: 0 10px;
+  gap: 5px;
+  overflow: hidden;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.navitems a {
+  position: relative;
+  transition: all 0.3s ease 0.1s;
+  padding: 10px 19px;
+  color: #dd2c00;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.navitems a:hover {
+  color: #ffffff;
+}
+
+.innernav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95px;
+  height: 100%;
+  background: linear-gradient(45deg, #dd2c00, #e6a009);
+  border-radius: 8px;
+  transition: 0.3s ease;
+  z-index: 0;
+}
+
+.navitems a:nth-child(1):hover ~ .innernav {
+  left: 0;
+  width: 95px;
+}
+.navitems a:nth-child(2):hover ~ .innernav {
+  left: 95px;
+  width: 95px;
+}
+.navitems a:nth-child(3):hover ~ .innernav {
+  left: 190px;
+  width: 120px;
+}
+.navitems a:nth-child(4):hover ~ .innernav {
+  left: 310px;
+  width: 105px;
+}
+.navitems a:nth-child(5):hover ~ .innernav {
+  left: 415px;
+  width: 120px;
+}
+.navitems a:nth-child(6):hover ~ .innernav {
+  left: 535px;
+  width: 125px;
+}
+
+@media (max-width: 991.98px) {
+  .navitems {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 0;
+    height: auto;
+    border: none;
+    background: none;
+  }
+
+  .navitems a {
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+
+  .innernav {
+    display: none; 
+  }
+}
