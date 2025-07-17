@@ -1,5 +1,2 @@
-# NIC_Club_Web
+### Official NIC Website
 
-
-### yoo
-be serious!!!
